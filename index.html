@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name | Personal Portfolio</title>
+    <meta
+      name="description"
+      content="Personal portfolio site for showcasing my work, skills, projects, and contact information."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#top" class="brand">YourName</a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="site-nav">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Hello, I’m</p>
+            <h1>Your Name</h1>
+            <h2>Creative developer & problem solver</h2>
+            <p class="lead">
+              I design and build thoughtful digital experiences that combine clean aesthetics,
+              smooth functionality, and meaningful ideas.
+            </p>
+            <div class="cta-row">
+              <a href="#projects" class="btn btn-primary">View Projects</a>
+              <a href="#contact" class="btn btn-secondary">Let’s Talk</a>
+            </div>
+            <ul class="mini-stats">
+              <li><strong>3+</strong><span>Years of work</span></li>
+              <li><strong>12</strong><span>Projects shipped</span></li>
+              <li><strong>100%</strong><span>Curious mindset</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-card reveal">
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+            <div class="profile-card">
+              <div class="avatar">YN</div>
+              <div class="card-body">
+                <span class="label">Based in</span>
+                <h3>Anywhere you need me</h3>
+                <p>
+                  I build websites, creative products, and experiences that feel personal,
+                  polished, and memorable.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container two-col">
+          <div class="section-heading reveal">
+            <p class="eyebrow">About Me</p>
+            <h2>I’m passionate about building things that people genuinely enjoy.</h2>
+          </div>
+          <div class="content-block reveal">
+            <p>
+              I’m a self-driven creator who enjoys turning ideas into experiences that are
+              clear, useful, and visually memorable. My work blends creativity, technology,
+              and problem-solving to help brands and people share their story in a way that
+              feels authentic.
+            </p>
+            <p>
+              Whether I’m building a portfolio, designing a user interface, or crafting a web
+              experience from scratch, I focus on the details that make the work feel polished
+              and human.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section alt-section">
+        <div class="container">
+          <div class="section-heading center reveal">
+            <p class="eyebrow">Skills</p>
+            <h2>What I work with</h2>
+          </div>
+
+          <div class="skills-grid">
+            <article class="skill-card reveal">
+              <h3>Design</h3>
+              <p>Brand identity, interface design, wireframes, and creative direction.</p>
+            </article>
+            <article class="skill-card reveal">
+              <h3>Development</h3>
+              <p>Responsive websites, front-end builds, interactive experiences, and clean code.</p>
+            </article>
+            <article class="skill-card reveal">
+              <h3>Strategy</h3>
+              <p>Content planning, storytelling, product thinking, and idea validation.</p>
+            </article>
+            <article class="skill-card reveal">
+              <h3>Tools</h3>
+              <p>Figma, VS Code, GitHub, Notion, and a growing toolkit for modern web work.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-heading center reveal">
+            <p class="eyebrow">Projects</p>
+            <h2>Selected work</h2>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card reveal">
+              <div class="project-visual visual-one"></div>
+              <div class="project-body">
+                <span>Personal Brand</span>
+                <h3>Portfolio Website</h3>
+                <p>
+                  A modern personal website designed to present my story, work, and contact
+                  information clearly and confidently.
+                </p>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-visual visual-two"></div>
+              <div class="project-body">
+                <span>Creative Product</span>
+                <h3>Concept Experience</h3>
+                <p>
+                  An interactive concept focused on storytelling, visual systems, and smooth,
+                  user-friendly interactions.
+                </p>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-visual visual-three"></div>
+              <div class="project-body">
+                <span>Web Experience</span>
+                <h3>Landing Page Design</h3>
+                <p>
+                  A conversion-focused landing page built to highlight value, features, and a
+                  strong brand message.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="container contact-box reveal">
+          <div>
+            <p class="eyebrow">Let’s connect</p>
+            <h2>Want to build something meaningful together?</h2>
+          </div>
+          <a href="mailto:you@example.com" class="btn btn-primary">you@example.com</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© <span id="year"></span> Your Name</p>
+        <div class="socials">
+          <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="mailto:you@example.com">Email</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
